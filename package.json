@@ -8,9 +8,7 @@
     "url": "http://aws.amazon.com/"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start"
+    "build": "browserify lib/main.js -o dist/main.js -d"
   },
   "keywords": [],
   "browserify": {
